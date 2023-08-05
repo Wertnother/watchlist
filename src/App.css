@@ -214,7 +214,8 @@ header .nav-links li:last-child {
 .movie-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  row-gap: 300px;
+  column-gap: 30px;
 }
 
 @media (min-width: 992px) {
